@@ -1,0 +1,17 @@
+{
+  "name": "donghae-surf-world",
+  "version": "1.0.0",
+  "private": true,
+  "description": "동해 서프 월드: 실시간 서핑 메타버스 서버",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "three": "0.128.0",
+    "ws": "8.18.0"
+  }
+}
