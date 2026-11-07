@@ -2,7 +2,7 @@ services:
   - type: web
     name: donghae-surf-world
     runtime: node
-    plan: free
+    plan: starter
     region: singapore
     buildCommand: npm ci --omit=dev
     startCommand: node server.js
